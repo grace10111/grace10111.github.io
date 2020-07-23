@@ -1,0 +1,94 @@
+body {
+	background-image: url("pattern1.jpg");
+}
+
+#main_container {
+	background-color: rgba(242, 227, 223, 0.8);
+	padding-bottom: 150px;
+}
+
+#main_container2 {
+	background-color: rgba(242, 227, 223, 0.8);
+	padding-bottom: 100px;
+	padding-top: 5px;
+}
+
+#title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 140px;
+	color: #534f70;
+}
+
+#randletter {
+	font-size: 100px;
+	font-family: 'Itim', cursive;
+}
+
+#timer {
+	font-size: 30px;
+	font-family: 'Itim', cursive;
+}
+
+#randlist {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.card {
+	margin: 0px 20px 0px 60px;
+
+}
+
+.btn-group {
+	margin: 10px 0px 10px 0px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#randletter_button {
+	margin: 10px 0px 10px 0px;
+	background-color: #534f70;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#randlist_button {
+	margin: 10px 0px 10px 0px;
+	background-color: #534f70;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.little-headings {
+	font-family: 'Amatic SC', cursive;
+	color: #534f70;
+}
+
+.info-bits {
+	font-family: 'Quicksand', sans-serif;
+}
+
+#instructions {
+	margin: 40px 70px 0px 70px;
+}
+
+#instructions-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	color: #534f70;
+}
+
+.images {
+	margin-bottom: 15px;
+}
+
+#navbar {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+}
+
+#tagline {
+	margin: 20px, 100px, 10px, 100px;
+	font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hatchegories</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Itim&family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="hatch.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    		<div class="navbar-nav">
+			    <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+			    <a class="nav-item nav-link" href="instructions.html">How to Play</a>
+			</div>
+  		</div>
+	</nav>
+	<div class="container" id="main_container">
+		<h1 id="title" class='text-center'>Hatchegories</h1>
+		<div class="row">
+			<div class="col-6">
+				<div class="card">
+  					<div class="card-body">
+  						<ol id="randlist">
+  							<li>A boy’s name</li>
+							<li>A river</li>
+							<li>An animal</li>
+							<li>Things that are cold</li>
+							<li>Insects</li>
+							<li>TV Shows</li>
+							<li>Things that grow</li>
+							<li>Fruits</li>
+							<li>Things that are black</li>
+							<li>School subjects</li>
+							<li>Movie titles</li>
+							<li>Musical Instruments</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 text-center">
+				<p id="randletter">A</p>
+				<p id="timer">Time: 3:00</p>
+				<div class="btn-group" role="group" aria-label="Timer_Functions">
+    				<button id="reset" onclick='resetTimer()' type="button" class="btn btn-secondary">Reset</button>
+    				<button id="start" onclick='countdown(2,59)' type="button" class="btn btn-secondary">Start</button>
+				</div>
+				<div>
+					<button id="randletter_button" onclick='randLetter()' type="button" class="btn btn-primary">Random Letter</button>
+				</div>
+				<div>
+					<button id="randlist_button" onclick='randList()' type="button" class="btn btn-primary">Random List</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p class="text-center" id="tagline">Created in 2020 by Grace Hatcher</p>
+	<script src="hatch.js"></script>
+	<script src="lists.js"></script>
+</body>
+</html>
